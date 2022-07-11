@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.about {
+  padding: 80px 0;
+}
+.about-title {
+  margin: 0 0 20px;
+  text-align: center;
+}
+.about-row {
+  display: flex;
+  align-items: center;
+  margin: 0 -40px;
+}
+.about-col {
+  width: 50%;
+  padding: 0 40px;
+}
+.about-col__title {
+  margin: 0 0 20px;
+}
+.about-btn {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid blue;
+  background: blue;
+}
+.btn:hover {
+  background: transparent;
+  color: blue;
+}
